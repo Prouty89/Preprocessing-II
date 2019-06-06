@@ -168,18 +168,23 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-nav {
-  text-align: right;
+header {
   border-bottom: 2px dashed silver;
+  width: 100%;
 }
-nav h1 {
+header nav {
+  text-align: right;
+  width: 100%;
+}
+header nav h1 {
   text-align: left;
+  font-size: 3.2rem;
 }
-nav a {
+header nav a {
   text-decoration: none;
   color: black;
   text-align: right;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   justify-content: space-evenly;
 }
 .destination .btn {
@@ -192,11 +197,13 @@ nav a {
   padding: 11px;
   width: 80%;
 }
-.welcome-content p {
-  font-size: 18px;
+.welcome-content {
+  font-size: 3.2rem;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
-.welcome-content p .h3 {
-  font-size: 18px;
+.welcome-content p {
+  border-bottom: 2px dashed silver;
 }
 .footer {
   width: 100%;
